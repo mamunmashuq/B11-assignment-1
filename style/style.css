@@ -36,7 +36,7 @@ nav{
 }
 
 .banner{
-    background-color: #caf8e2;
+    background-color: #C6E4D6;
     border-radius: 24px;
     padding: 60px;
     display: flex;
@@ -96,7 +96,7 @@ nav{
 
 .card-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 30px;
 }
 
@@ -200,4 +200,64 @@ nav{
 .img{
     border-radius: 16px;
     margin-bottom: 0;
+}
+
+.donation{
+    margin-bottom: 80px;
+}
+.donate{
+    text-align: center;
+    margin-inline: 50px;
+}
+
+.card{
+    font-size: 30px;
+    font-style: fira sans, serif;
+    font-weight: bold;
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card:hover{
+    background-color: #8eccaf;
+}
+.payment{
+   background-color: #C6E4D6;
+}
+
+input{
+    width: 100%;
+    height: 64px;
+    margin:  auto;
+    text-align: center;
+    font-family: fira sans, serif;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.button{
+    text-align: center;
+}
+
+.newsletter{
+    text-align: center;
+    padding: 80px 300px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.subscribe{
+    display: flex;
+    margin: 0;
+    border-radius: 8px 8px 0;
+}
+
+.submit{
+    height: 68px;
+    margin: 0;
+    border-radius: 0 8px 8px 0;
 }
