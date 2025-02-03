@@ -1,0 +1,203 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0 24px;
+  }
+
+  .background-color{
+    background-color: rgb(246, 246, 246);
+  }
+
+  .nav-btn{
+    color: #3bae91;
+    border-color: #006A50;
+    border-radius: 8px;
+    font-family: fira sans, serif;
+    border-width: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+
+.nav-btn:hover{
+    background-color: #9bccc0;
+}
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.banner{
+    background-color: #caf8e2;
+    border-radius: 24px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.banner-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+
+.banner-description{
+    font-size: 60px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+
+.btn{
+    font-weight: 400;
+    padding: 15px 25px 15px 25px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    font-family: fira sans, serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #025641;
+}
+
+.margin{
+    margin: 0;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    color: rgba(14, 14, 14, 0.57);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.img{
+    margin-bottom: 15px;
+}
+
+.card-title{
+    margin-bottom: 15px;
+}
+
+.card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.card-2{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.card-3{
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.btn-1{
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    background-color: #5490F5;
+    color: white;
+    border-radius: 8px;
+    font-family: fira sans, serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-1:hover{
+    background-color: #3474e3;
+}
+
+.btn-2{
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    background-color: #09A15C;
+    color: white;
+    border-radius: 8px;
+    font-family: fira sans, serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-2:hover{
+    background-color: #08874e;
+}
+
+.btn-3{
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    background-color: #FFC239;
+    color: white;
+    border-radius: 8px;
+    font-family: fira sans, serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-3:hover{
+    background-color: #dba527;
+}
+
+.quotes{
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 0 auto;
+    background-image: url("../assets/quote-bg.png");
+    background-position: left 50px top 10px;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+
+.news{
+    margin-bottom: 80px;
+}
+
+.recent-news{
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.img{
+    border-radius: 16px;
+    margin-bottom: 0;
+}
